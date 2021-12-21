@@ -82,9 +82,9 @@
 			// btnLocalizarCopiar
 			// 
 			this.btnLocalizarCopiar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnLocalizarCopiar.Location = new System.Drawing.Point(878, 104);
+			this.btnLocalizarCopiar.Location = new System.Drawing.Point(878, 103);
 			this.btnLocalizarCopiar.Name = "btnLocalizarCopiar";
-			this.btnLocalizarCopiar.Size = new System.Drawing.Size(35, 30);
+			this.btnLocalizarCopiar.Size = new System.Drawing.Size(42, 35);
 			this.btnLocalizarCopiar.TabIndex = 8;
 			this.btnLocalizarCopiar.Text = "...";
 			this.btnLocalizarCopiar.UseVisualStyleBackColor = true;
@@ -130,9 +130,9 @@
 			// btnLocalizarPcfCustom
 			// 
 			this.btnLocalizarPcfCustom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnLocalizarPcfCustom.Location = new System.Drawing.Point(879, 13);
+			this.btnLocalizarPcfCustom.Location = new System.Drawing.Point(879, 12);
 			this.btnLocalizarPcfCustom.Name = "btnLocalizarPcfCustom";
-			this.btnLocalizarPcfCustom.Size = new System.Drawing.Size(35, 30);
+			this.btnLocalizarPcfCustom.Size = new System.Drawing.Size(42, 35);
 			this.btnLocalizarPcfCustom.TabIndex = 2;
 			this.btnLocalizarPcfCustom.Text = "...";
 			this.btnLocalizarPcfCustom.UseVisualStyleBackColor = true;

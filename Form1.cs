@@ -58,6 +58,8 @@ namespace ScreenCopier
 			{
 				try
 				{
+					Cursor.Current = Cursors.WaitCursor;
+
 					string copiarParaPath = this.txtCopiarPara.Text + @"\";
 
 					string[] telas = this.txtTelas.Text.Split(';');
@@ -99,10 +101,15 @@ namespace ScreenCopier
 						Copiar(repositoryFile, Path.Combine(targetPath, tela + "Repository.cs")); Thread.Sleep(1);
 						Copiar(jsFile, Path.Combine(targetPath, tela + ".js")); Thread.Sleep(1);
 
-						Compactar(targetPath); Thread.Sleep(1);
+						if (this.chkCompactar.Checked)
+						{
+							Compactar(targetPath); Thread.Sleep(1);
+						}
 					}
 
 					this.statusLabel.Text = "Cópia concluída!";
+
+					Cursor.Current = Cursors.Default;
 				}
 				catch (Exception ex)
 				{
